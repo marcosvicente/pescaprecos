@@ -1,0 +1,121 @@
+/* utilidades */
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.cf:before,
+.cf:after{
+	content:" ";
+	display: table;
+}
+.cf:after{
+	clear: both;
+}
+.cf{
+	*zoom:1;
+}
+/* Fim utilidades*/
+body{font:62.5%/1.4 sans-serif}
+.tudo{
+    width: 100%;
+	max-width: 1190px;
+	margin: 0 auto;
+}
+
+
+/*menu superior*/
+.menu-superior{
+	margin: 0 ;
+	padding: 0.5em 1em 3em 0;
+	background:#6f6f6f;
+}
+.menu-superior ul {
+	float: right;
+	margin: 0;
+	padding: 0;
+	
+}
+.menu-superior ul li{
+	display: inline;
+	list-style-type: none;
+	color:#fff;
+	font-size: 80%;
+	margin: 2em;
+	
+	
+}
+.icon-usuario-menu{
+	padding: 0 2em;
+	
+    
+}
+.icon-usuario-menu a{
+	text-decoration: none;
+	color:#fff;
+}
+
+.icon-carrinho-menu{
+	
+	padding: 0 2em;
+}
+.icon-carrinho-menu a{
+	text-decoration: none;
+	color:#fff;
+}
+
+/* cabecalho */
+.caixa-busca {
+	margin: 1em;
+}
+.caixa-busca ul{
+}
+.caixa-busca ul li{
+	display: inline-block;
+	margin: 1em 4em 1em 4em;
+}
+.busca form input[type="text"]{
+	border:none;
+	color:#555753;
+	width: 20em;
+}
+.busca form input[type="submit"]{
+    border:none;
+	color:#fff;
+	background: #007ab3;
+	padding: 1em;
+}
+.carrinho{
+	display: inline-block;
+}
+.carrinho p{
+	font-size: 1em;
+	color: #8e8e8e;
+}
+#preco{
+	color:#007ab3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
