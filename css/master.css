@@ -1,8 +1,8 @@
 /* utilidades */
 *, *:before, *:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+	/*! -moz-box-sizing: border-box; */
+	/*! -webkit-box-sizing: border-box; */
+	/*! box-sizing: border-box; */
 }
 .cf:before,
 .cf:after{
@@ -15,6 +15,8 @@
 .cf{
 	*zoom:1;
 }
+
+
 /* Fim utilidades*/
 body{font:62.5%/1.4 sans-serif}
 .tudo{
@@ -66,18 +68,21 @@ body{font:62.5%/1.4 sans-serif}
 
 /* cabecalho */
 .caixa-busca {
-	margin: 1em;
+	margin: 1em 0;
 }
 .caixa-busca ul{
 }
 .caixa-busca ul li{
 	display: inline-block;
-	margin: 1em 4em 1em 4em;
+}
+.busca{
+	margin: 0 7em;
 }
 .busca form input[type="text"]{
 	border:none;
 	color:#555753;
 	width: 20em;
+	margin: 2em 5em;
 }
 .busca form input[type="submit"]{
     border:none;
@@ -87,6 +92,7 @@ body{font:62.5%/1.4 sans-serif}
 }
 .carrinho{
 	display: inline-block;
+
 }
 .carrinho p{
 	font-size: 1em;
@@ -96,8 +102,26 @@ body{font:62.5%/1.4 sans-serif}
 	color:#007ab3;
 }
 
+/*menu */
+nav {
+	background:#007ab3;
+		padding:1em;
 
+}
 
+nav ul li{
+	display: inline;
+	margin: 0  0 0 2em;
+	color: #fff;
+}
+nav ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+#todas-categorias{
+	background: #01608c;
+	padding: 4em 2em 3em 2em;
+}
 
 
 
