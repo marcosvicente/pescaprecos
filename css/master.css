@@ -1,51 +1,39 @@
 /* utilidades */
 *, *:before, *:after{
-	/*! -moz-box-sizing: border-box; */
-	/*! -webkit-box-sizing: border-box; */
-	/*! box-sizing: border-box; */
+	 -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+	 box-sizing: border-box; 
 }
-.cf:before,
-.cf:after{
-	content:" ";
-	display: table;
-}
-.cf:after{
-	clear: both;
-}
-.cf{
-	*zoom:1;
-}
+
 
 
 /* Fim utilidades*/
 body{font:62.5%/1.4 sans-serif}
 .tudo{
     width: 100%;
-	max-width: 1190px;
+	max-width: 1080px;
 	margin: 0 auto;
 }
 
 
 /*menu superior*/
 .menu-superior{
-	margin: 0 ;
-	padding: 0.5em 1em 3em 0;
+	margin: -1em;
+	padding: 0em 3em 5em 3em;
 	background:#6f6f6f;
+	background-size: 100%;
+	
 }
 .menu-superior ul {
-	float: right;
-	margin: 0;
-	padding: 0;
-	
+	float: right;	
+	width: 1080px;
 }
 .menu-superior ul li{
 	display: inline;
 	list-style-type: none;
 	color:#fff;
-	font-size: 80%;
-	margin: 2em;
 	
-	
+	margin: 2em ;	
 }
 .icon-usuario-menu{
 	padding: 0 2em;
@@ -58,7 +46,6 @@ body{font:62.5%/1.4 sans-serif}
 }
 
 .icon-carrinho-menu{
-	
 	padding: 0 2em;
 }
 .icon-carrinho-menu a{
@@ -69,8 +56,11 @@ body{font:62.5%/1.4 sans-serif}
 /* cabecalho */
 .caixa-busca {
 	margin: 1em 0;
+	
 }
 .caixa-busca ul{
+	margin: 0 auto;
+	width: 1080px;
 }
 .caixa-busca ul li{
 	display: inline-block;
@@ -95,7 +85,7 @@ body{font:62.5%/1.4 sans-serif}
 
 }
 .carrinho p{
-	font-size: 1em;
+	font-size: 100%;
 	color: #8e8e8e;
 }
 #preco{
@@ -105,29 +95,64 @@ body{font:62.5%/1.4 sans-serif}
 /*menu */
 nav {
 	background:#007ab3;
-		padding:1em;
-
+	padding:2em;
+	
 }
-
+nav ul{
+	width: 1080px;
+	margin: 0 auto;
+}
 nav ul li{
 	display: inline;
-	margin: 0  0 0 2em;
+	margin: 0 0 0 2em;
 	color: #fff;
+	font-size:100%;
 }
 nav ul li a{
 	color:#fff;
 	text-decoration: none;
+	margin: 0 1em;
 }
 #todas-categorias{
 	background: #01608c;
-	padding: 4em 2em 3em 2em;
+	padding: 4em 2em ;
+}
+/* Carrinho  de compras*/
+.carrinho-compras {
+	display: block;
+	margin: 3em auto ;
+	width: 1080px;
+	
+}
+.carrinho-compras p{
+	font-size: 120%;
+
+}
+.compras {
+	margin: 0 auto;
+	display: block;
+	width: 1080px;
 }
 
+#continuar-comprando{
+	border:none;
+	padding: 1em;
+	background: #c8c8c8;
+	border-radius:0.5em;
+	color:#e9e9e9;
+	float:left;
 
+}
+#finalizar-compra{
+	width: 270px;
+	border:none;
+	padding: 1em;
+	background: #00a752;
+	border-radius:0.5em;
+	color:#e9e9e9;
+	float:right;
 
-
-
-
+}
 
 
 
