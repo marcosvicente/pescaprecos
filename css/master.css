@@ -201,6 +201,7 @@ nav ul li a{
 	padding:  0 .5em;
 }
 .tabela-produtos{
+	
 	display: inline-flex;
 }
 .tabela-produtos-descricao{
@@ -237,18 +238,23 @@ hr{
 }
 
 /*informações compra*/
-.informacoes-compra{
-	background:#ebebeb;
-	padding: 2em;
+.informacao-compra{
+	margin: 0em auto;
+	display: block;
+	width: 108em;
 }
-.informacoes-compra  li {
-	list-style: none;
-	color:#797979;
+.informacao-compra table td{
+	padding:  1em 4em 1em 0em;
 }
-
-.informacoes-compra li h2 span{
-	color: #007ab2;
+.informacao-compra table td:nth-last-child(odd){
+	width: 30%;
+	margin: 2em;
+	text-align: center;
+	font-size: 120%;
+	background: #ebebeb;
 }
+.informacao-compra table td{color:#717171; font-size:120%;}
+.informacao-compra table td h2 span{color: #007ab3;}
 #mensagem-atencao{
 	font-size: 80%;
 }
@@ -262,8 +268,30 @@ hr{
 	padding: 1em;
 }
 
+.tabela-input input[type="text"]{
+	width: 30em;
+	border:none;
+}
+.tabela-input input[type="submit"]{
+	border:none;
+	background: #007ab3;
+	padding: 1em;
+	color:#fff;
+}
 
-
+.frete{
+	
+}
+.frete ul{
+	display: inline-flex;
+	margin: -4em;
+}
+.frete ul li{
+	list-style: none;
+}
+.frete ul li input[type="radio"]{
+	margin: 3em 0;
+}
 
 
 
