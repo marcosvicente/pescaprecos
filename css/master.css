@@ -243,17 +243,21 @@ hr{
 	display: block;
 	width: 108em;
 }
-.informacao-compra table td{
-	padding:  1em 4em 1em 0em;
+.informacao-compra table td { 
+	border-top: 1px solid #e1e1e1;
+	
+	padding: 2em;
 }
 .informacao-compra table td:nth-last-child(odd){
 	width: 30%;
-	margin: 2em;
+	margin: 2em  !important;
+	padding: 2em;
+	border:none;
 	text-align: center;
 	font-size: 120%;
 	background: #ebebeb;
 }
-.informacao-compra table td{color:#717171; font-size:120%;}
+.informacao-compra table td{color:#717171; font-size:100%;}
 .informacao-compra table td h2 span{color: #007ab3;}
 #mensagem-atencao{
 	font-size: 80%;
@@ -280,19 +284,28 @@ hr{
 }
 
 .frete{
-	
+	padding:  6em 0em !important;
 }
 .frete ul{
 	display: inline-flex;
-	margin: -4em;
+	margin: 8em -4em 0 -4em;
 }
 .frete ul li{
 	list-style: none;
+	margin:  -5em 0.5em;
 }
 .frete ul li input[type="radio"]{
-	margin: 3em 0;
+	margin: 2em 0;
+}
+#frete-para{
+	width: 25%;
 }
 
+#descobrir-cep {
+	font-size: 100%;
+	float: right;
+	margin:  -3em  5em 0 2em;
+}
 
 
 

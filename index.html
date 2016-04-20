@@ -141,46 +141,46 @@
 
 				</td>
 			</tr>
-			<tr class="cep">
-				<td class="tabela-input">
-					<form action="">
-						<input type="text" value="" placeholder="Digite seu CEP aqui" name="" />
-						<input type="submit" value="Calcular">
-					</form>
-					<p>Não sei meu CEP</p>
-				</td>
-				<td>
-				</td>
-			</tr>
-			<tr >
+			<tr>
 				<td class="frete">
-					<ul>
-						<li>
-							<h2>FRETE PARA:</h2>
-							<p>Rua Espirito Santo, nº2105 - Bairro São José São Paulo / SP</p>
-						</li>
-						<li>
-							<input type="radio" value="" name="" id=""/>
-						</li>
-						<li>
-							<h2>Pac(5 dias úteis)</h2>
-							<p>R$15,00</p>
-						</li>
-						<li>
-							<input type="radio" value="" name="" id=""/>
-						</li>
-						<li>
-							<h2>E-Sedex(2 dias úteis)</h2>
-							<p>R$18,00</p>
-						</li>
-						<li>
-							<input type="radio" value="" name="" id=""/>
-						</li>
-						<li>
-							<h2>SEDEX(1 dias útel)</h2>
-							<p>R$25,00</p>
-						</li>
-					</ul>
+					<div class="cep">
+						<div class="tabela-input">
+							<form action="">
+								<input type="text" value="" placeholder="Digite seu CEP aqui" name="" />
+								<input type="submit" value="Calcular">
+							</form>
+							<p id="descobrir-cep">Não sei meu CEP</p>
+						</div>
+						<div>
+						</div>
+						<ul>
+							<li id="frete-para">
+								<h2>FRETE PARA:</h2>
+								<p>Rua Espirito Santo, nº2105 - Bairro São José São Paulo / SP</p>
+							</li>
+							<li>
+								<input type="radio" value="" name="" id=""/>
+							</li>
+							<li>
+								<h2>Pac(5 dias úteis)</h2>
+								<p>R$15,00</p>
+							</li>
+							<li>
+								<input type="radio" value="" name="" id=""/>
+							</li>
+							<li>
+								<h2>E-Sedex(2 dias úteis)</h2>
+								<p>R$18,00</p>
+							</li>
+							<li>
+								<input type="radio" value="" name="" id=""/>
+							</li>
+							<li>
+								<h2>SEDEX(1 dias útel)</h2>
+								<p>R$25,00</p>
+							</li>
+						</ul>
+					</div>
 				</td>
 				<td>
 					<p>Frete contratado: Sedex</p>
@@ -189,7 +189,7 @@
 			</tr>
 			<tr>
 				<td class="tabela-input">
-					<form action="index_submit" method="get" accept-charset="utf-8">
+					<form >
 						<input type="text" placeholder="Digite seu cupon de desconto aqui"/>
 						<input type="submit" value="Aplicar">
 					</form>
