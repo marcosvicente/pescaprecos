@@ -158,20 +158,23 @@ nav ul li a{
 }
 .produtos table{
 	border-collapse: collapse;
-	border-spacing: 0: 
+	border-spacing: 0;
+    width: 100%;	
+	
 }
 .produtos table thead tr th{
 	background: #01628f;
 	color:#fff;
     padding: 1em;
-	font-size: 120%;
+	
+	font-size: 100%;
 	text-align: left;
 	
 }
 .produtos table tbody tr td{
 	color:#6e6e6e;
 	font-size: 140%;
-	margin: 0 2em;
+	padding:  0 .5em;
 }
 .tabela-produtos{
 	display: inline-flex;
@@ -179,12 +182,20 @@ nav ul li a{
 .tabela-produtos-descricao{
 	color:#000;
 	font-size: 110%;
+	text-align: left;
+	width: 30%;
 }
-#super-preco{
-	font-size: 200%;
+#antigo-preco{
+	text-align: center;
+	text-decoration: line-through;
+}
+#promocao-preco{
+	font-size: 180%;
+	text-align: center;
+	
 }
 #preco-total{
-	font-size: 200%;
+	font-size: 180%;
 }
 #quantidade{
 	width: 5em;
