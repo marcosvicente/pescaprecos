@@ -6,6 +6,30 @@
 }
 
 
+/* grid*/
+.row{
+	width:100%;
+	max-width:108em;
+	margin:0 auto;
+}
+.coluna{
+	float:left;
+	padding:0 10px;
+}
+.grid-1 {width:10%;}
+.grid-2 {width:20%;}
+.grid-3 {width:30%;}
+.grid-4 {width:40%;}
+.grid-5 {width:50%;}
+.grid-6 {width:60%;}
+.grid-7 {width:70%;}
+.grid-8 {width:80%;}
+.grid-9 {width:90%;}
+.grid-10 {width:100%;}
+
+
+
+
 
 /* Fim utilidades*/
 body{font:62.5%/1.4 sans-serif}
@@ -208,6 +232,65 @@ nav ul li a{
 	color: #f00;
 	margin: auto;
 }
+hr{
+	color:#e1e1e1;
+}
+
+/*informações compra*/
+.informacoes-compra{
+	background:#ebebeb;
+	padding: 2em;
+}
+.informacoes-compra  li {
+	list-style: none;
+	color:#797979;
+}
+
+.informacoes-compra li h2 span{
+	color: #007ab2;
+}
+#mensagem-atencao{
+	font-size: 80%;
+}
+
+#botao-finalizar-compra{
+	width: 100%;
+	border:none;
+	background: #00ab54;
+	color:#fff;
+	border-radius: 0.5em;
+	padding: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
