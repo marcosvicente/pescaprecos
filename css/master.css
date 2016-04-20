@@ -6,27 +6,6 @@
 }
 
 
-/* grid*/
-.row{
-	width:100%;
-	max-width:108em;
-	margin:0 auto;
-}
-.coluna{
-	float:left;
-	padding:0 10px;
-}
-.grid-1 {width:10%;}
-.grid-2 {width:20%;}
-.grid-3 {width:30%;}
-.grid-4 {width:40%;}
-.grid-5 {width:50%;}
-.grid-6 {width:60%;}
-.grid-7 {width:70%;}
-.grid-8 {width:80%;}
-.grid-9 {width:90%;}
-.grid-10 {width:100%;}
-
 
 
 
@@ -239,7 +218,7 @@ hr{
 
 /*informações compra*/
 .informacao-compra{
-	margin: 0em auto;
+	margin: 2em auto;
 	display: block;
 	width: 108em;
 }
@@ -307,15 +286,41 @@ hr{
 	margin:  -3em  5em 0 2em;
 }
 
+/* icons rodape*/
+.icons-rodape {
+	margin: 10em auto 0 auto;
+	width: 108em;
+	display: flex;
+}
+.forma-pagamento h2, .seguranca h2{
+	color:#6a6a6a;
+}
 
-
-
-
-
-
-
-
-
+.forma-pagamento{
+	width: 50em;
+	margin: 0 auto;
+}                                                
+.forma-pagamento ul {
+	margin-left: -4em;
+}
+.forma-pagamento ul li{
+	list-style: none;
+	display:inline;
+	padding-right: 2em;
+}
+.seguranca {
+	width: 50em;
+	margin: 0 auto;
+	
+}
+.seguranca ul {
+    margin-left: -4em;	
+}
+.seguranca ul li{
+	list-style: none;
+	display: inline;
+	padding-right: 6em;
+}
 
 
 
