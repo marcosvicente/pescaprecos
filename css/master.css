@@ -27,15 +27,21 @@ body{font:62.5%/1.4 sans-serif}
 	background-size: 100%;
 	
 }
-.menu-superior ul {
-	float: right;	
-	width: 1080px;
+.menu-superior-item{
+	width: 108em;
+	margin: 0 auto;
 }
-.menu-superior ul li{
+.menu-superior-item ul {
+	float: right;	
+	width: 108em;
+}
+.menu-superior-item ul li{
 	display: inline;
+	
 	list-style-type: none;
 	color:#fff;
-	margin: 2em ;	
+	line-height: 1em;
+	margin: 2em;	
 }
 .icon-usuario-menu{
 	padding: 0 2em;
@@ -322,12 +328,14 @@ hr{
 	padding-right: 7em;
 }
 /* footer */
-footer{
-	background: #ededed;
+.menu-footer{
+	
+background: #ededed;
 }
 footer table{
 	width: 108em;
 	margin: 0 auto;
+	padding: 1em;
 }
 footer table thead th{
 	font-size: 150%;
@@ -350,8 +358,7 @@ footer table thead th{
 }
 .footer-texto {
 	font-size: 120%;
-    padding: : 1em
-	
+    
 }
 .atendimento-footer{						
     margin: 0;
@@ -364,12 +371,45 @@ footer table thead th{
 	margin:   -8em 0;
 	font-size: 120%;
 }
+.direitos-resevados{
+	background: #007ab3;
 
-
-
-
-
-
+	
+}
+.direitos-resevados-item{
+	width: 108em;
+	margin: 0 auto;
+	padding: 2em;
+}
+.direitos-resevados-item > div{   
+	
+	
+}
+.direitos-resevados-item h2{
+	color:#fff;
+    width: 50%;	
+	float:left;
+	margin-right:8em;
+}
+.direitos-resevados-item p{
+    color:#fff;
+	
+}
+.commerce{
+	width: 108em;
+	margin: 0 auto;
+	display: block;
+}
+.commerce{
+}
+.commerce img{
+	float:left;
+}
+.commerce p{
+	color:#6c6c6c;
+	margin-left: 2em;
+    float: left;	
+}
 
 
 
