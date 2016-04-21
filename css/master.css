@@ -5,7 +5,7 @@
 	 box-sizing: border-box; 
 }
 
-
+.grid-1{width: 20%;}
 
 
 
@@ -319,21 +319,51 @@ hr{
 .seguranca ul li{
 	list-style: none;
 	display: inline;
-	padding-right: 6em;
+	padding-right: 7em;
+}
+/* footer */
+footer{
+	background: #ededed;
+}
+footer table{
+	width: 108em;
+	margin: 0 auto;
+}
+footer table thead th{
+	font-size: 150%;
+	color: #544f4d;
+	text-align: left;
+	
 }
 
 
 
+.footer-header{
+	display: flex;
+	margin: 1em 0;
+}
+.footer-header img{
+	margin-right:  1em;
+	margin-top: 1em;
+	max-height: 2em;
+	max-width:  2em;
+}
+.footer-texto {
+	font-size: 120%;
+    padding: : 1em
+	
+}
+.atendimento-footer{						
+    margin: 0;
+}
 
-
-
-
-
-
-
-
-
-
+.moveis-footer, 
+.loja-footer,
+.algumas-categorias-footer,
+.rede-social-footer{
+	margin:   -8em 0;
+	font-size: 120%;
+}
 
 
 
