@@ -5,13 +5,12 @@
 	 box-sizing: border-box; 
 }
 
-.grid-1{width: 20%;}
-
-
-
 
 /* Fim utilidades*/
-body{font:62.5%/1.4 sans-serif}
+body{
+	font:62.5%/1.4 sans-serif;
+	font-family: "Arial", Georgia, Serif;
+}
 .tudo{
     width: 100%;
 	max-width: 1080px;
