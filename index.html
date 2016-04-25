@@ -118,13 +118,18 @@
 						<p>LAVADORA DE ROUPAS SAMSUNG 10,1 KG SEINE BRANCA COM 14 PROGRMAS DE LAVAGEM ECO BUBBLE - WP106U4SAWQ</p>
 						<p>COR: PRATA</p>
 						<p>VONTAGEM: 110V</p>
-						<p id="remover-produto">
+									<p id="remover-produto">
 							<img src="imagem/apagar-produto.png" alt=""/>
 							Remover produto
 						</p>
 					</td>
-					<td>
-						<input type="number" name="" value="1" id="quantidade">
+					<td class="quantidade-button">
+						<input type="text" role="alert" aria-live="assertive" readonly value="0" id="quantidade">
+						<div class="mais-menos">
+							<button type="button" >+</button>
+							<button type="button" >-</button>
+						</div>
+
 					</td>
 					<td>14 dias úteis</td>
 					<td>
@@ -207,7 +212,7 @@
 					<form >
 						<input type="text" placeholder="Digite seu cupon de desconto aqui"/>
 						<img  class="imagem-lupa-tabela" src="imagem/lupa.png" alt=""/>
-						<input type="submit" value="Aplicar">
+						<input type="submit" value="Aplicar" id="button-aplicar">
 					</form>
 				</td>
 				<td>
@@ -383,3 +388,5 @@
 	</footer>
 </body>
 </html>
+
+

@@ -200,6 +200,9 @@ nav ul li a{
 	text-align: left;
 	width: 30%;
 }
+#button-aplicar{
+	margin-left: 7.5em;
+}
 #antigo-preco{
 	text-align: center;
 	text-decoration: line-through;
@@ -213,6 +216,20 @@ nav ul li a{
 	font-size: 180%;
 	margin-top: 2.2em;
 }
+
+#remover-produto{
+	color: #f00;
+	margin: auto;
+}
+
+hr{
+	color:#e1e1e1;
+}
+.quatidade-button{
+    width: 5em;
+		
+	margin: 0 auto;
+}
 #quantidade{
 	width: 5em;
 	border: 1px solid #e1e1e1;
@@ -220,14 +237,16 @@ nav ul li a{
 	padding: 1em;
 	margin-top: 0em;
 }
-#remover-produto{
-	color: #f00;
-	margin: auto;
+.mais-menos{
+	float:right;
 }
-hr{
-	color:#e1e1e1;
+.mais-menos button{
+    border:1px solid #e1e1e1;
+	display: block;
+	width: 2em;
+	margin-left: -.7em;
+	padding: .12em;
 }
-
 /*informações compra*/
 .informacao-compra{
 	margin: 2em auto;
@@ -272,7 +291,7 @@ hr{
 .tabela-input input[type="submit"]{
 	border:none;
 	background: #007ab3;
-	margin-left:6em;
+	margin-left:4em;
 	padding: 1em;
 	color:#fff;
 }
