@@ -76,10 +76,11 @@ body{
 	margin: 0 7em;
 }
 .busca form input[type="text"]{
-	border:none;
+	border:1px solid #7e7e7e;
 	color:#555753;
-	width: 20em;
-	margin: 2em 5em;
+	width: 30em;
+	margin: 2em 3em;
+	padding: 1em;
 }
 .busca form input[type="submit"]{
     border:none;
@@ -94,6 +95,9 @@ body{
 .carrinho p{
 	font-size: 100%;
 	color: #8e8e8e;
+}
+.imagem-lupa{
+	margin: 2em 1em 0em -4em;
 }
 #preco{
 	color:#007ab3;
@@ -119,6 +123,7 @@ nav ul li a{
 	color:#fff;
 	text-decoration: none;
 	margin: 0 1em;
+	font-size: 100%;
 }
 #todas-categorias{
 	background: #01608c;
@@ -205,6 +210,7 @@ nav ul li a{
 }
 #preco-total{
 	font-size: 180%;
+	margin-top: 2.2em;
 }
 #quantidade{
 	width: 5em;
@@ -241,7 +247,7 @@ hr{
 	font-size: 120%;
 	background: #ebebeb;
 }
-.informacao-compra table td{color:#717171; font-size:100%;}
+.informacao-compra table td{color:#969595; font-size:100%;border: none;/*! padding: 2em; */}
 .informacao-compra table td h2 span{color: #007ab3;}
 #mensagem-atencao{
 	font-size: 80%;
@@ -258,17 +264,23 @@ hr{
 
 .tabela-input input[type="text"]{
 	width: 30em;
-	border:none;
+	border:1px solid #7b7b7b;
+	padding: 0.5em;
+
+	
 }
 .tabela-input input[type="submit"]{
 	border:none;
 	background: #007ab3;
+	margin-left:2em;
 	padding: 1em;
 	color:#fff;
 }
-
+.imagem-lupa-tabela{
+	margin-bottom: -1em;
+	margin-left: -4em;
+}
 .frete{
-	padding:  6em 0em !important;
 }
 .frete ul{
 	display: inline-flex;
