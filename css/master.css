@@ -73,12 +73,12 @@ body{
 	display: inline-block;
 }
 .busca{
-	margin: 0 7em;
+	margin: 0 4em;
 }
 .busca form input[type="text"]{
 	border:1px solid #7e7e7e;
 	color:#555753;
-	width: 30em;
+	width: 28em;
 	margin: 2em 3em;
 	padding: 1em;
 }
@@ -87,6 +87,7 @@ body{
 	color:#fff;
 	background: #007ab3;
 	padding: 1em;
+    margin-left: 2em;
 }
 .carrinho{
 	display: inline-block;
@@ -265,20 +266,19 @@ hr{
 .tabela-input input[type="text"]{
 	width: 30em;
 	border:1px solid #7b7b7b;
-	padding: 0.5em;
-
+	padding: 1em;
 	
 }
 .tabela-input input[type="submit"]{
 	border:none;
 	background: #007ab3;
-	margin-left:2em;
+	margin-left:6em;
 	padding: 1em;
 	color:#fff;
 }
 .imagem-lupa-tabela{
 	margin-bottom: -1em;
-	margin-left: -4em;
+	margin-left: -8.3em;
 }
 .frete{
 }
@@ -300,7 +300,7 @@ hr{
 #descobrir-cep {
 	font-size: 100%;
 	float: right;
-	margin:  -3em  5em 0 2em;
+	margin:  -3em 2em 0 2em;
 }
 
 /* icons rodape*/
